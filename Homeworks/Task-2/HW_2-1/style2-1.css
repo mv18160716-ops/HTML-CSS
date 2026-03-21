@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #e1dde1;
+}
+h1{
+    text-align: center;
+    padding: 65px;
+}
+p{
+    text-align: center;
+    font-size: 35px;
+    padding: 35px;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 350px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.card img{
+    height: 200px;
+    padding: 20px 0;
+}
+.card p{
+    text-align: center;
+    font-size: 28px;
+}
