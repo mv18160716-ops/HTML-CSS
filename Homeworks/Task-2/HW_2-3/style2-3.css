@@ -38,3 +38,6 @@ h4{
     font-size: 30px;
     text-align: left;
 }
+.weather:hover{
+    transform: scale(1.1);
+}
