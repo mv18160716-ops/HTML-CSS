@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+    background-color: #EEAECA;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: #ff0072;
+    transition: 2s;
+}
+.circle:hover{
+    border-radius: 50%;
+    background-color: gray;
+    transition: 3s;
+}
