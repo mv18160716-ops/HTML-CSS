@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    height: 50vh;
+    text-align: center;
+}
+section p{
+    width: 85%;
+}
+.top-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #EEAECA;
+    color: black;
+}
+.top-section h2{
+    font-size: 32px;
+    padding: 20px 0;
+}
+.bottom-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+.bottom-section h2{
+    font-size: 32px;
+    padding: 20px 0;
+}
