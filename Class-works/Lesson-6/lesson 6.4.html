@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        ul li::after{
+            content: "!!!!!!!";
+            color: #f453c1;
+        }
+        ul{
+            padding-inline-start: 0 ;
+        }
+        ul li{
+            list-style-type: none;
+        }
+        ul li::before{
+            content: "";
+            display: inline-block;
+            width:16px;
+            height:16px;
+            margin-right: 10px;
+            background-image: url('https://img.icons8.com/material-sharp/48/sun--v1.png') ;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        label{
+            display: block;
+            margin-top: 10px;
+
+        }
+        form sup{
+            color: red;
+        }
+        input{
+            width: 150px;
+        }
+
+
+    </style>
+</head>
+<body>
+<form class="form-registrstion" >
+    <label for="name"> Введіть своє ім'я</label>
+    <input type="text" name="name" id="name" placeholder="Inna" required ><sup>*</sup>
+
+    <label for="email"> Введіть свій email</label>
+    <input type="email" name="email" id="email" placeholder="example@gmail.com" required ><sup>*</sup>
+
+    <label for="password"> Введіть свій пароль</label>
+    <input type="password" name="password" id="password" placeholder="qwerty" required ><sup>*</sup>
+
+    <label for="age"> Введіть свій вік</label>
+    <input type="number" name="age" id="age" min="18" max="100">
+
+    <label>Стать</label>
+    <label><input type="radio" name="gender" value="male"> Чоловіча</label>
+    <label><input type="radio" name="gender" value="female"> Жіноча</label>
+</form>
+</body>
+</html>
