@@ -1,0 +1,8 @@
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+    .pictures {
+        width: 720px;
+    }
+    .picture{
+        width: 218px;
+    }
+}

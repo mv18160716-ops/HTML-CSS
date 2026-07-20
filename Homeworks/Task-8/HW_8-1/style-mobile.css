@@ -1,0 +1,13 @@
+@media screen and (max-width: 480px) {
+    .pictures {
+        width: 375px;
+        padding: 32px 16px ;
+        gap: 40px;
+    }
+    .picture{
+        width: 343px;
+    }
+    .picture p{
+        margin-bottom: 10px;
+    }
+}
